@@ -8,7 +8,6 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @EnableWebMvc
-// SỬA LỖI: Trỏ đúng vào package chứa WelcomeController
 @ComponentScan(basePackages = "com.demo.controller")
 public class WebConfig {
 

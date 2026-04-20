@@ -16,7 +16,6 @@ public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServl
 
     @Override
     protected String[] getServletMappings() {
-        // SỬA LỖI: Chuyển "/api/*" thành "/" để bắt mọi request
         return new String[] { "/" };
     }
 }
